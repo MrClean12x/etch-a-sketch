@@ -38,3 +38,9 @@ function colorSquare() {
 function changeColor(choice){
     color = choice;
 }
+
+function resetGrid() {
+    let grid = document.querySelector(".grid");
+    let squares = grid.querySelectorAll("div");
+    squares.forEach((div) => div.style.backgroundColor = "white");
+}
