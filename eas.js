@@ -24,7 +24,7 @@ function changeSize(input) {
       if (input >= 2 && input <= 100){
         createGrid(input);
       }   else {
-        console.log("too small or too large, between 2 and 100 only")
+        //console.log("too small or too large, between 2 and 100 only")
       }
     
 }
